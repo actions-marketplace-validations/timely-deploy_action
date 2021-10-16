@@ -1,0 +1,19 @@
+name: "Timely Deploy"
+description: "GitHub Action for creating deployments using Timely Deploy"
+author: "timely-deploy"
+branding:
+  icon: "watch"
+  color: "green"
+inputs:
+  token:
+    description: "Github token"
+    required: true
+  environment:
+    description: "Name for the target deployment environment"
+    required: true
+  ref:
+    description: "Git ref to deploy"
+    required: false
+runs:
+  using: "node12"
+  main: "dist/index.js"
