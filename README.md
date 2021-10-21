@@ -24,7 +24,7 @@ jobs:
           environment: production
 ```
 
-See [deploy.yml](.github/workflows/deploy.yml) for an example deployment from GitHub Actions.
+See [ci.yml](.github/workflows/ci.yml) for an example of triggering a deployment from GitHub Actions.
 
 ## License
 
