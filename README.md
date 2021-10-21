@@ -5,6 +5,10 @@
 
 > GitHub Action for creating deployments using Timely Deploy.
 
+## Requirements
+
+Install the [GitHub App](https://github.com/apps/timely-deploy) for the desired repo or organization. The app is used to trigger deployments from [@timely-deploy](https://github.com/timely-deploy) instead of using your personal user token directly. A GitHub token is provided to this action so Timely Deploy can verify the commit exists and come from the action before triggering a deployment.
+
 ## Example
 
 Trigger a deployment from any push to GitHub:
